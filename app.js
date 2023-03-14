@@ -10,8 +10,6 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-res.setHeader("Access-Control-Allow-Credentials", "true");
-
 app.listen(PORT,()=>{
     console.log(`server start at port no ${PORT}`)
 })
